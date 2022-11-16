@@ -1,17 +1,8 @@
 package com.example;
 
 public class Car {
-	
-	
+
 	private Integer speed;
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	public Integer getSpeed() {
 		return speed;
@@ -23,7 +14,6 @@ public class Car {
 
 	@Override
 	public String toString() {
-		return "Car [name=" + name + ", speed=" + speed + "]";
+		return "Car [speed=" + speed + "]";
 	}
-
 }
