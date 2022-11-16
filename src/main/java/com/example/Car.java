@@ -2,7 +2,6 @@ package com.example;
 
 public class Car {
 	
-	private String name;
 	private Integer speed;
 
 	public String getName() {
